@@ -25,41 +25,106 @@ NXT-G
 
 ## Open Software
 
+[![image](./media/LEGO/LEGOsoftware)](./media/LEGO/LEGOsoftware.svg)
 
-C#, BricxCC, Robolab, RoboMind, Enchanting, ROBOTC, NXTGCC, leJOS NXT, 
-nxtOSEK, ICON, MATLAB and Simulink, Lua, Ada, URBI, FLL NXT Navigation, ruby-nxt, 
-Robotics.NXT, LibNXT, PyNXC, NXT-Python, Physical Etoys  
+## Open Hardware
 
-## LEGO Bicycle
+[![image](./media/LEGO/LEGOhardware)](./media/LEGO/LEGOhardware.svg)
 
-[![](./media/LEGO/LEGObicycle.png)](./media/LEGO/LEGObicycle.mp4)
+## Bicycle
 
-## Graph
+[![](./media/LEGO/LEGObicycle.png)](./media/LEGO/LEGObicycle.mp4)  
+Razyeh Mousavi
 
-digraph G {
+## Ballbot
 
-	subgraph cluster_0 {
-		style=filled;
-		color=lightgrey;
-		node [style=filled,color=white];
-		a0 -> a1 -> a2 -> a3;
-		label = "process #1";
-	}
+[![](./media/LEGO/LEGOballbot.jpg)](https://www.youtube.com/watch?v=f8jxGsg3p0Y)
 
-	subgraph cluster_1 {
-		node [style=filled];
-		b0 -> b1 -> b2 -> b3;
-		label = "process #2";
-		color=blue
-	}
-	start -> a0;
-	start -> b0;
-	a1 -> b3;
-	b2 -> a3;
-	a3 -> a0;
-	a3 -> end;
-	b3 -> end;
+## NXTway
 
-	start [shape=Mdiamond];
-	end [shape=Msquare];
-}
+[![](./media/LEGO/LEGOnxtway.png)](./media/LEGO/LEGOnxtway.mp4)  
+[Hamid Bazargani](http://engcast.com/main/)  
+[NXTway-GS](http://lejos-osek.sourceforge.net/videos.htm)
+
+## Ball on Plate
+
+[![](./media/LEGO/LEGOballonplate.jpg)](https://www.youtube.com/watch?v=_YILNkytBjE&list=PLDB2B51106611C1E5)
+
+## Active Front Steering
+
+[![](./media/LEGO/LEGOcar.png)](./media/LEGO/LEGOafs.mp4)  
+[Reza Azimi](http://brown.edu/research/labs/engineering-man-machine-systems/systems/people/students/razimi)  
+[NXTway-GT](http://lejos-osek.sourceforge.net/videos.htm#NXT_GT_Hi)  
+
+## LEGO MINDSTORMS
+
+It was very exciting at first but I had more than 40 students and only 3 sets of LEGO Mindstorms!
+
+## Amazing Journey
+
+We realized that before making the robot, there were a lot of things that we needed to learn.
+
+## Operating System
+
+[![](./media/LEGO/LEGOosek.png)](http://lejos-osek.sourceforge.net/)
+
+## Virtual Robot
+
+[![](./media/LEGO/NXTway-GS.jpg)](http://lejos-osek.sourceforge.net/)
+
+## 3D Animation
+
+[![](./media/LEGO/NXTway-GS-Viewer.jpg)](http://lejos-osek.sourceforge.net/)
+
+## Controller Design
+
+[![](./media/LEGO/NXTway-GS-Controller.jpg)](http://lejos-osek.sourceforge.net/)
+
+## How About a Virtual LEGO Set?
+
+- This virtual robot is interesting but what if I want to build another robot?
+- How hard is it to build a virtual robot?
+
+## Causal Modeling 
+
+- Writing the dynamic equations
+- Converting the equations to ordinary differential equations
+- Creating a signal flow model e.g. a Simulink model
+- Building a virtual robot seems to be different from building a real robot
+
+## Virtual LEGO Set
+
+What if we had a set of virtual LEGO parts and we could build a robot with them?
+
+## Virtual LEGO Set
+
+We made one!  
+![](./media/LEGO/LEGOvirtual.png)  
+
+- [ODE](http://www.ode.org/) (Open Dynamics Engine)
+- [IrrLicht](http://irrlicht.sourceforge.net/) (Visualization)  
+
+Alborz Gharraee
+
+# Acausal Modeling
+
+## Modelica and MapleSim 
+
+[![](./media/Modelica/DoublePendulum.png)](http://www.maplesoft.com/products/maplesim/)
+
+- The connections between components are physical connections like position, voltage, flow,...
+- Acausal modeling is very similar to building a real system
+
+## Acausal Modeling with MapleSim
+
+[![](./media/Modelica/MapleSimWorkflow.png)](http://www.maplesoft.com/products/maplesim/)
+
+## Functional Mockup Interface
+
+[![](./media/Modelica/FMI.jpg)](https://itea3.org/assets/itea/image/638.jpg)
+
+- Model Exchange, Co-Simulation, Product Lifecycle Management
+- There are over 35 [Tools](https://www.fmi-standard.org/tools) supporting FMI
+
+Courtesy of [ITAE](https://itea3.org/)
+
