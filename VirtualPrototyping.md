@@ -50,9 +50,9 @@ Razyeh Mousavi
 
 [![](./media/LEGO/LEGOballonplate.jpg)](https://www.youtube.com/watch?v=_YILNkytBjE&list=PLDB2B51106611C1E5)
 
-## Active Front Steering
+## Electronics Stability Control
 
-[![](./media/LEGO/LEGOcar.png)](./media/LEGO/LEGOafs.mp4)  
+[![](./media/LEGO/LEGOcar.png)](./media/LEGO/LEGOesc.mp4)  
 [Reza Azimi](http://brown.edu/research/labs/engineering-man-machine-systems/systems/people/students/razimi)  
 [NXTway-GT](http://lejos-osek.sourceforge.net/videos.htm#NXT_GT_Hi)  
 
@@ -117,7 +117,7 @@ Alborz Gharraee
 
 ## Acausal Modeling with MapleSim
 
-[![](./media/Modelica/MapleSimWorkflow.png)](http://www.maplesoft.com/products/maplesim/)
+[![](./media/Modelica/MapleSimWorkflow.png)](http://www.maplesoft.com/products/toolboxes/FMI/index.aspx)
 
 ## Functional Mockup Interface
 
@@ -128,3 +128,147 @@ Alborz Gharraee
 
 Courtesy of [ITAE](https://itea3.org/)
 
+# Model Based Development
+
+## The V Diagram
+
+[![](./media/MBD/Systems_Engineering_V_diagram.jpg)](http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/7352/Model-Based-System-Engineering--Beyond-Spreadsheets.aspx)
+
+from [engineering.com](http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/7352/Model-Based-System-Engineering--Beyond-Spreadsheets.aspx)
+
+## Trial and Error
+
+![](./media/MBD/ConventionalApproach.png)    
+Expensive, time consuming, not reliable
+
+## Model Based Approach
+
+![](./media/MBD/ModernApproach.png)
+
+## Model Based Development
+
+[![](./media/MBD/FMIvalidation.jpg)](https://itea3.org/assets/itea/image/639.jpg)  
+Saves resources, time, money
+
+Courtesy of [ITAE](https://itea3.org/)
+
+## Old Approach
+
+- Easy: build the model and design the controller in a high level environment like MATLAB\Simulink
+- Hard: rewrite your code for the hardware controller on the physical prototype
+- Problem: rewriting the code is time consuming and error prone
+
+## Modern Approach
+
+![](./media/MBD/MiLSiLHiL.png)
+
+## Software in the Loop
+
+![](./media/MBD/SiL.png)
+
+- The controller and the virtual prototype are two different applications.
+- The applications "talk" to each other using a "middleware".
+- The controller doesn't see the difference between the virtual and physical prototypes.
+
+## Middleware
+
+- Using the same language to exchange messages 
+- Components can be replaced without affecting the whole system
+
+##
+
+[![](./media/MBD/Broom.jpg)](http://www.icub.org/)
+
+##
+
+[![](./media/MBD/Ship.jpg)](http://www.icub.org/)
+
+##
+
+[![](./media/MBD/Modular.jpg)](http://www.icub.org/)
+
+# Robot Operating System
+
+## What is ROS?
+
+- a set of software libraries and tools 
+- from drivers to state-of-the-art algorithms
+- powerful developer tools
+- open source.
+
+## 
+
+[![](./media/ROS/ROS-FiveYears.png)](./media/ROS/ROS-FiveYears.mp4)  
+
+## NXT ROS
+
+[![](./media/ROS/ProcessingNXT.gif)](https://code.google.com/p/brown-ros-pkg/wiki/ROSProcessingjsNXT)  
+
+[brown-ros-pkg](https://code.google.com/p/brown-ros-pkg/wiki/ROSProcessingjsNXT)
+
+## ROS 101
+
+[![](./media/ROS/ros101-1.png)](http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/)  
+
+## ROS 101
+
+[![](./media/ROS/ros101-2.png)](http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/)  
+
+## ROS 101
+
+[![](./media/ROS/ros101-3.png)](http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/)  
+
+## Camera
+
+[![](./media/ROS/OpenCV_Gazebo_ROS.png)](./media/ROS/OpenCV_Gazebo_ROS.mp4)  
+
+[Mike Charikov](https://www.youtube.com/watch?v=_8AhNWKzv2k) 
+
+## OpenCV
+
+[![](./media/ROS/opencv_overview.jpg)](http://opencv.org/)  
+
+## OpenCV
+
+[![](./media/ROS/OpenCV.png)](http://www.bdti.com/private/pubs/BDTI_ESCSV_2012_Intro_Computer_Vision.pdf)   
+
+## OpenCV
+
+[![](./media/ROS/GestureOpenCV.png)](./media/ROS/GestureOpenCV.mp4)  
+
+[source](https://www.youtube.com/watch?v=B4dwu3si9x0) 
+
+
+## CloudSim
+
+[![](./media/ROS/CloudSim.png)](http://cloudsim.io)  
+
+# Resources
+
+## Bookmarks
+
+- [MapleSim](http://www.maplesoft.com/products/maplesim/)
+- [Clearpath Robotics](http://www.clearpathrobotics.com/)
+- [Open Source Robotics Foundation](http://osrfoundation.org/)
+- [ROS](http://www.ros.org/)
+- [ROScon](http://roscon.ros.org/)
+- [ROS Cheat Sheet](http://www.clearpathrobotics.com/wp-content/uploads/2014/01/ROS-Cheat-Sheet-v1.01.pdf)
+- [Gazebo](http://gazebosim.org/)
+- [Orocos](http://www.orocos.org/)
+- [MORSE](http://www.openrobots.org/wiki/morse/)
+- [JdeRobot](http://jderobot.org/)
+- [The Robotics Challenge](http://www.theroboticschallenge.org/)
+- [Rethink Robotics](http://www.rethinkrobotics.com/)
+- [Dr. Robot](http://www.drrobot.com/)
+- [Best practices in robotics](http://www.best-of-robotics.org/)
+
+## Bookmarks
+
+- [OpenCV](http://opencv.org/)
+- [Robot App Store](http://www.robotappstore.com/)
+- [Robot Web Tools](http://robotwebtools.org/)
+- [Robohub](http://robohub.org/)
+- [Silicon Valley Robotics](http://www.svrobo.org/)
+- [Suitable Technologies](https://www.suitabletech.com/)
+- [Popular Science](http://www.popsci.com/category/tags/robots)
+- [Robot Standards](http://www.robot-standards.eu/)

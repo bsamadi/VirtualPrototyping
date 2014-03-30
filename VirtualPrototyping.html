@@ -16,7 +16,11 @@
   <![endif]-->
     <style type="text/css">
     	.reveal h1 { font-size: 2em; }
-    	.reveal section img { border: none; }
+    	.reveal section img { border: none; 
+                                  box-shadow: none; 
+                                  -webkit-box-shadow: none;
+                                  -moz-box-shadow: none;}
+    	li { font-size: 1em; }
     </style>
 </head>
 <body>
@@ -55,12 +59,15 @@
 </section><section id="ball-on-plate" class="slide level2">
 <h1>Ball on Plate</h1>
 <p><a href="https://www.youtube.com/watch?v=_YILNkytBjE&amp;list=PLDB2B51106611C1E5"><img src="./media/LEGO/LEGOballonplate.jpg" /></a></p>
-</section><section id="active-front-steering" class="slide level2">
-<h1>Active Front Steering</h1>
-<p><a href="./media/LEGO/LEGOafs.mp4"><img src="./media/LEGO/LEGOcar.png" /></a><br /><a href="http://brown.edu/research/labs/engineering-man-machine-systems/systems/people/students/razimi">Reza Azimi</a><br /><a href="http://lejos-osek.sourceforge.net/videos.htm#NXT_GT_Hi">NXTway-GT</a></p>
+</section><section id="electronics-stability-control" class="slide level2">
+<h1>Electronics Stability Control</h1>
+<p><a href="./media/LEGO/LEGOesc.mp4"><img src="./media/LEGO/LEGOcar.png" /></a><br /><a href="http://brown.edu/research/labs/engineering-man-machine-systems/systems/people/students/razimi">Reza Azimi</a><br /><a href="http://lejos-osek.sourceforge.net/videos.htm#NXT_GT_Hi">NXTway-GT</a></p>
 </section><section id="lego-mindstorms" class="slide level2">
 <h1>LEGO MINDSTORMS</h1>
 <p>It was very exciting at first but I had more than 40 students and only 3 sets of LEGO Mindstorms!</p>
+</section><section id="amazing-journey" class="slide level2">
+<h1>Amazing Journey</h1>
+<p>We realized that before making the robot, there were a lot of things that we needed to learn.</p>
 </section><section id="operating-system" class="slide level2">
 <h1>Operating System</h1>
 <p><a href="http://lejos-osek.sourceforge.net/"><img src="./media/LEGO/LEGOosek.png" /></a></p>
@@ -73,9 +80,6 @@
 </section><section id="controller-design" class="slide level2">
 <h1>Controller Design</h1>
 <p><a href="http://lejos-osek.sourceforge.net/"><img src="./media/LEGO/NXTway-GS-Controller.jpg" /></a></p>
-</section><section id="amazing" class="slide level2">
-<h1>Amazing!</h1>
-<p>We realized that before making the robot, there are a lot of things that we need to learn.</p>
 </section><section id="how-about-a-virtual-lego-set" class="slide level2">
 <h1>How About a Virtual LEGO Set?</h1>
 <ul>
@@ -111,7 +115,7 @@
 </ul>
 </section><section id="acausal-modeling-with-maplesim" class="slide level2">
 <h1>Acausal Modeling with MapleSim</h1>
-<p><a href="http://www.maplesoft.com/products/maplesim/"><img src="./media/Modelica/MapleSimWorkflow.png" /></a></p>
+<p><a href="http://www.maplesoft.com/products/toolboxes/FMI/index.aspx"><img src="./media/Modelica/MapleSimWorkflow.png" /></a></p>
 </section><section id="functional-mockup-interface" class="slide level2">
 <h1>Functional Mockup Interface</h1>
 <p><a href="https://itea3.org/assets/itea/image/638.jpg"><img src="./media/Modelica/FMI.jpg" /></a></p>
@@ -120,6 +124,133 @@
 <li>There are over 35 <a href="https://www.fmi-standard.org/tools">Tools</a> supporting FMI</li>
 </ul>
 <p>Courtesy of <a href="https://itea3.org/">ITAE</a></p>
+</section></section>
+<section><section id="model-based-development" class="titleslide slide level1"><h1>Model Based Development</h1></section><section id="the-v-diagram" class="slide level2">
+<h1>The V Diagram</h1>
+<p><a href="http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/7352/Model-Based-System-Engineering--Beyond-Spreadsheets.aspx"><img src="./media/MBD/Systems_Engineering_V_diagram.jpg" /></a></p>
+<p>from <a href="http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/7352/Model-Based-System-Engineering--Beyond-Spreadsheets.aspx">engineering.com</a></p>
+</section><section id="trial-and-error" class="slide level2">
+<h1>Trial and Error</h1>
+<p><img src="./media/MBD/ConventionalApproach.png" /><br />Expensive, time consuming, not reliable</p>
+</section><section id="model-based-approach" class="slide level2">
+<h1>Model Based Approach</h1>
+<figure>
+<img src="./media/MBD/ModernApproach.png" />
+</figure>
+</section><section id="model-based-development-1" class="slide level2">
+<h1>Model Based Development</h1>
+<p><a href="https://itea3.org/assets/itea/image/639.jpg"><img src="./media/MBD/FMIvalidation.jpg" /></a><br />Saves resources, time, money</p>
+<p>Courtesy of <a href="https://itea3.org/">ITAE</a></p>
+</section><section id="old-approach" class="slide level2">
+<h1>Old Approach</h1>
+<ul>
+<li>Easy: build the model and design the controller in a high level environment like MATLAB</li>
+<li>Hard: rewrite your code for the hardware controller on the physical prototype</li>
+<li>Problem: rewriting the code is time consuming and error prone</li>
+</ul>
+</section><section id="modern-approach" class="slide level2">
+<h1>Modern Approach</h1>
+<figure>
+<img src="./media/MBD/MiLSiLHiL.png" />
+</figure>
+</section><section id="software-in-the-loop" class="slide level2">
+<h1>Software in the Loop</h1>
+<figure>
+<img src="./media/MBD/SiL.png" />
+</figure>
+<ul>
+<li>The controller and the virtual prototype are two different applications.</li>
+<li>The applications &quot;talk&quot; to each other using a &quot;middleware&quot;.</li>
+<li>The controller doesn't see the difference between the virtual and physical prototypes.</li>
+</ul>
+</section><section id="middleware" class="slide level2">
+<h1>Middleware</h1>
+<ul>
+<li>Using the same language to exchange messages</li>
+<li>Components can be replaced without affecting the whole system</li>
+</ul>
+</section><section id="section" class="slide level2">
+<h1></h1>
+<p><a href="http://www.icub.org/"><img src="./media/MBD/Broom.jpg" /></a></p>
+</section><section id="section-1" class="slide level2">
+<h1></h1>
+<p><a href="http://www.icub.org/"><img src="./media/MBD/Ship.jpg" /></a></p>
+</section><section id="section-2" class="slide level2">
+<h1></h1>
+<p><a href="http://www.icub.org/"><img src="./media/MBD/Modular.jpg" /></a></p>
+</section></section>
+<section><section id="robot-operating-system" class="titleslide slide level1"><h1>Robot Operating System</h1></section><section id="what-is-ros" class="slide level2">
+<h1>What is ROS?</h1>
+<ul>
+<li>a set of software libraries and tools</li>
+<li>from drivers to state-of-the-art algorithms</li>
+<li>powerful developer tools</li>
+<li>open source.</li>
+</ul>
+</section><section id="section-3" class="slide level2">
+<h1></h1>
+<p><a href="./media/ROS/ROS-FiveYears.mp4"><img src="./media/ROS/ROS-FiveYears.png" /></a></p>
+</section><section id="nxt-ros" class="slide level2">
+<h1>NXT ROS</h1>
+<p><a href="https://code.google.com/p/brown-ros-pkg/wiki/ROSProcessingjsNXT"><img src="./media/ROS/ProcessingNXT.gif" /></a></p>
+<p><a href="https://code.google.com/p/brown-ros-pkg/wiki/ROSProcessingjsNXT">brown-ros-pkg</a></p>
+</section><section id="ros-101" class="slide level2">
+<h1>ROS 101</h1>
+<p><a href="http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/"><img src="./media/ROS/ros101-1.png" /></a></p>
+</section><section id="ros-101-1" class="slide level2">
+<h1>ROS 101</h1>
+<p><a href="http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/"><img src="./media/ROS/ros101-2.png" /></a></p>
+</section><section id="ros-101-2" class="slide level2">
+<h1>ROS 101</h1>
+<p><a href="http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/"><img src="./media/ROS/ros101-3.png" /></a></p>
+</section><section id="camera" class="slide level2">
+<h1>Camera</h1>
+<p><a href="./media/ROS/OpenCV_Gazebo_ROS.mp4"><img src="./media/ROS/OpenCV_Gazebo_ROS.png" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=_8AhNWKzv2k">Mike Charikov</a></p>
+</section><section id="opencv" class="slide level2">
+<h1>OpenCV</h1>
+<p><a href="http://opencv.org/"><img src="./media/ROS/opencv_overview.jpg" /></a></p>
+</section><section id="opencv-1" class="slide level2">
+<h1>OpenCV</h1>
+<p><a href="http://www.bdti.com/private/pubs/BDTI_ESCSV_2012_Intro_Computer_Vision.pdf"><img src="./media/ROS/OpenCV.png" /></a></p>
+</section><section id="opencv-2" class="slide level2">
+<h1>OpenCV</h1>
+<p><a href="./media/ROS/GestureOpenCV.mp4"><img src="./media/ROS/GestureOpenCV.png" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=B4dwu3si9x0">source</a></p>
+</section><section id="cloudsim" class="slide level2">
+<h1>CloudSim</h1>
+<p><a href="http://cloudsim.io"><img src="./media/ROS/CloudSim.png" /></a></p>
+</section></section>
+<section><section id="resources" class="titleslide slide level1"><h1>Resources</h1></section><section id="bookmarks" class="slide level2">
+<h1>Bookmarks</h1>
+<ul>
+<li><a href="http://www.maplesoft.com/products/maplesim/">MapleSim</a></li>
+<li><a href="http://www.clearpathrobotics.com/">Clearpath Robotics</a></li>
+<li><a href="http://osrfoundation.org/">Open Source Robotics Foundation</a></li>
+<li><a href="http://www.ros.org/">ROS</a></li>
+<li><a href="http://roscon.ros.org/">ROScon</a></li>
+<li><a href="http://www.clearpathrobotics.com/wp-content/uploads/2014/01/ROS-Cheat-Sheet-v1.01.pdf">ROS Cheat Sheet</a></li>
+<li><a href="http://gazebosim.org/">Gazebo</a></li>
+<li><a href="http://www.orocos.org/">Orocos</a></li>
+<li><a href="http://www.openrobots.org/wiki/morse/">MORSE</a></li>
+<li><a href="http://jderobot.org/">JdeRobot</a></li>
+<li><a href="http://www.theroboticschallenge.org/">The Robotics Challenge</a></li>
+<li><a href="http://www.rethinkrobotics.com/">Rethink Robotics</a></li>
+<li><a href="http://www.drrobot.com/">Dr. Robot</a></li>
+<li><a href="http://www.best-of-robotics.org/">Best practices in robotics</a></li>
+</ul>
+</section><section id="bookmarks-1" class="slide level2">
+<h1>Bookmarks</h1>
+<ul>
+<li><a href="http://opencv.org/">OpenCV</a></li>
+<li><a href="http://www.robotappstore.com/">Robot App Store</a></li>
+<li><a href="http://robotwebtools.org/">Robot Web Tools</a></li>
+<li><a href="http://robohub.org/">Robohub</a></li>
+<li><a href="http://www.svrobo.org/">Silicon Valley Robotics</a></li>
+<li><a href="https://www.suitabletech.com/">Suitable Technologies</a></li>
+<li><a href="http://www.popsci.com/category/tags/robots">Popular Science</a></li>
+<li><a href="http://www.robot-standards.eu/">Robot Standards</a></li>
+</ul>
 </section></section>
     </div>
   </div>
