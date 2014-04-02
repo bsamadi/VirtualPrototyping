@@ -200,6 +200,36 @@ Courtesy of [ITAE](https://itea3.org/)
 
 [![](./media/ROS/ROS-FiveYears.png)](./media/ROS/ROS-FiveYears.mp4)  
 
+## PR2 by Willow Garage
+
+[![](./media/ROS/PR2.jpg)](http://www.willowgarage.com/)  
+
+[Willow Garage is changing](http://spectrum.ieee.org/automaton/robotics/robotics-software/willow-garage-to-shut-down)
+
+## TurtleBot
+
+[![](./media/ROS/TurtleBot.jpg)](http://www.clearpathrobotics.com/turtlebot_2/)  
+
+## Husky
+
+[![](./media/ROS/Husky.jpg)](http://www.clearpathrobotics.com/husky/)  
+
+[Clearpath Robotics](http://www.clearpathrobotics.com/), Waterloo, Ontario
+
+## Baxter
+
+[![](./media/ROS/Baxter.jpg)](http://www.rethinkrobotics.com/)  
+
+[list of robots](http://wiki.ros.org/Robots)
+
+## ROS Industrial and MoveIt
+
+[![](./media/ROS/moveit-title-small.png)](http://moveit.ros.org/)  
+
+[![](./media/ROS/MoveIt!Montage 2013.png)](./media/ROS/MoveIt!Montage 2013.mp4)  
+
+[src](https://www.youtube.com/watch?v=dblCGZzeUqs) 
+
 ## NXT ROS
 
 [![](./media/ROS/ProcessingNXT.gif)](https://code.google.com/p/brown-ros-pkg/wiki/ROSProcessingjsNXT)  
@@ -218,6 +248,8 @@ Courtesy of [ITAE](https://itea3.org/)
 
 [![](./media/ROS/ros101-3.png)](http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/)  
 
+[more](http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/)
+
 ## Camera
 
 [![](./media/ROS/OpenCV_Gazebo_ROS.png)](./media/ROS/OpenCV_Gazebo_ROS.mp4)  
@@ -230,13 +262,21 @@ Courtesy of [ITAE](https://itea3.org/)
 
 ## OpenCV
 
-[![](./media/ROS/OpenCV.png)](http://www.bdti.com/private/pubs/BDTI_ESCSV_2012_Intro_Computer_Vision.pdf)   
+[![](./media/ROS/trackwe.png)](https://code.google.com/p/opencv-lane-vehicle-track/)   
 
-## OpenCV
+motion, line, face, feature detection
+
+## Depth Estimation with OpenCV
+
+[![](./media/ROS/DepthEstimation.png)](./media/ROS/DepthEstimation.mp4)  
+
+[src](https://www.youtube.com/watch?v=LbtTsKiSQkE) 
+
+## Gesture Detection with OpenCV
 
 [![](./media/ROS/GestureOpenCV.png)](./media/ROS/GestureOpenCV.mp4)  
 
-[source](https://www.youtube.com/watch?v=B4dwu3si9x0) 
+[src](https://www.youtube.com/watch?v=B4dwu3si9x0) 
 
 
 ## CloudSim
