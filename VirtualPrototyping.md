@@ -115,6 +115,26 @@ Alborz Gharraee
 - The connections between components are physical connections like position, voltage, flow,...
 - Acausal modeling is very similar to building a real system
 
+## Electrical Systems
+
+[![](./media/Modelica/Electrical.png)](http://www.maplesoft.com/products/maplesim/)
+
+## Mechanical Systems
+
+[![](./media/Modelica/Mechanical.png)](http://www.maplesoft.com/products/maplesim/)
+
+## Hydraulic Systems
+
+[![](./media/Modelica/Hydraulic.png)](http://www.maplesoft.com/products/maplesim/)
+
+## Thermal Systems
+
+[![](./media/Modelica/Thermal.png)](http://www.maplesoft.com/products/maplesim/)
+
+## Chemical Systems
+
+[![](./media/Modelica/Chemical.png)](http://www.control.lth.se/Research/ResearchComplexSystems/numerical-and-symbolic-algorithms-for-dynamic-optimization.html)
+
 ## Acausal Modeling with MapleSim
 
 [![](./media/Modelica/MapleSimWorkflow.png)](http://www.maplesoft.com/products/toolboxes/FMI/index.aspx)
@@ -169,6 +189,7 @@ Courtesy of [ITAE](https://itea3.org/)
 - The controller and the virtual prototype are two different applications.
 - The applications "talk" to each other using a "middleware".
 - The controller doesn't see the difference between the virtual and physical prototypes.
+- Software engineers do not have to wait for the hardware!
 
 ## Middleware
 
@@ -224,11 +245,14 @@ Courtesy of [ITAE](https://itea3.org/)
 
 ## ROS Industrial and MoveIt
 
-[![](./media/ROS/moveit-title-small.png)](http://moveit.ros.org/)  
+[![](./media/ROS/moveit-title-small.png)](http://moveit.ros.org/robots/)  
 
 [![](./media/ROS/MoveIt!Montage 2013.png)](./media/ROS/MoveIt!Montage 2013.mp4)  
 
+[list of robots](http://wiki.ros.org/Robots)
+
 [src](https://www.youtube.com/watch?v=dblCGZzeUqs) 
+
 
 ## NXT ROS
 
