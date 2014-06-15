@@ -245,11 +245,11 @@ Courtesy of [ITAE](https://itea3.org/)
 
 ## ROS Industrial and MoveIt
 
-[![](./media/ROS/moveit-title-small.png)](http://moveit.ros.org/robots/)  
+[![](./media/ROS/moveit-title-small.png)](http://moveit.ros.org)  
 
 [![](./media/ROS/MoveIt!Montage 2013.png)](./media/ROS/MoveIt!Montage 2013.mp4)  
 
-[list of robots](http://wiki.ros.org/Robots)
+[list of robots](http://moveit.ros.org/robots/)
 
 [src](https://www.youtube.com/watch?v=dblCGZzeUqs) 
 
