@@ -1,3 +1,9 @@
+---
+author: Behzad Samadi
+title: Virtual Prototyping
+date: April 9, 2014
+---
+
 ## Virtual Prototyping
 
 Behzad Samadi, PhD  
